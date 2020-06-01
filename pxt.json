@@ -4,12 +4,14 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "githubdemoproject": "github:pelikhan/github-demo-project#v0.0.2"
+        "githubdemoproject": "github:pelikhan/github-demo-project#v0.0.2",
+        "crazsyo bied crashy bird": "github:felix-with-no-glitches/cool-crashy-bird#a158b1db4197a1edf3c8cee044447e9326e76315"
     },
     "files": [
         "main.ts",
         "README.md",
-        "main.blocks"
+        "main.blocks",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
