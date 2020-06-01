@@ -1,0 +1,32 @@
+{
+    "name": "crazsyo bied crashy bird",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "githubdemoproject": "github:pelikhan/github-demo-project#v0.0.2"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.blocks"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
